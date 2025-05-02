@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imgs/newFav.jpeg">
 </head>
 <body>
-    
+    <header>
+        <h1 id="title">Pomodoro Clock</h1>
+        <nav>
+            <button id="settings">Settings</button>
+            <button id="about">About</button>
+        </nav>
+    </header>
+
+    <div id="clockContainer">
+        <div id="modeBtns">
+            <button id="focus">Focus</button>
+            <button id="break">Break</button>
+        </div>
+        <div id="clock">25:00</div>
+        <div id="ctrlBtns">
+            <button id="start-button">Start</button>
+            <button id="reset-button">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
