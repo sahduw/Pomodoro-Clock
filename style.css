@@ -1,5 +1,5 @@
 /* css too hard */
-/* me use chatgpt */
+/* some me use chatgpt */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,6 @@ header {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px 40px;
-    background-color: transparent;
 }
 
 #title {
@@ -82,4 +81,12 @@ button:hover {
 #focus{
     background-color: #fff;
     color: #666
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #fbebd5;
 }

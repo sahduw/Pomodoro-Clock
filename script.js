@@ -59,3 +59,6 @@ function switchMode(mode){
 window.onload = () => {
     switchMode('focus');
 }
+function featuresNotAdded() {
+    alert("i havnet add these features lol")
+}
