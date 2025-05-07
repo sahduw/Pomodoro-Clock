@@ -55,7 +55,7 @@ button {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 button:hover {
@@ -74,11 +74,12 @@ button:hover {
 #modeBtns{
     justify-content: space-evenly;
 }
-#focus{
-    background-color: #333;
+#modeBtns button.active-mode{
+    background-color: #666;
     color: #fff;
 }
-#break{
-    color: black;
-    background-color: transparent;
+#break,
+#focus{
+    background-color: #fff;
+    color: #666
 }
